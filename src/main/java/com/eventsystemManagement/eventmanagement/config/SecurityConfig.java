@@ -38,7 +38,7 @@ public class SecurityConfig {
 	                cfg.setAllowedOrigins(Arrays.asList(
 	                    "http://localhost:3000", // React
 	                    "http://localhost:4200",  // Angular
-	                    "https://thakur-and-sons.vercel.app/"  //Deployed 
+	                    "https://celebration-frontend.vercel.app/"  //Deployed 
 	                ));
 	                cfg.setAllowedMethods(Collections.singletonList("*"));
 	                cfg.setAllowCredentials(true);
